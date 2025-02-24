@@ -172,9 +172,7 @@ img {
     width:100%;
     padding-block: 4.5rem 3.5rem;
     box-shadow: 0 4px 16px hsla(22, 100%, 8%, .2);
-    transition: top .4s ease-in-out;
-    z-index: 1000;
-   
+    transition: top .4s ;
   } 
 }
 .nav__list{
@@ -188,7 +186,7 @@ img {
   color:var(--title-color);
   font-family: var(--second-font);
   font-size: 1.2rem;
-  padding: 0.5rem 1rem;
+  
 }
 .nav__link::after{
   content:'';
@@ -201,8 +199,8 @@ img {
   transition:width .3s;
 }
 .nav__link:hover::after{
-  width:100%;
-  background-color: var(--first-color);
+  width:60%;
+  
 }
 .nav__close{
   position:absolute;
